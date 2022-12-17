@@ -191,7 +191,17 @@ button{
     transition: .15s;
 }
 .grid-left__event:hover{
-    color: #fff;   
+    color: #fff;
+    box-shadow: ;
+}
+.event1:hover{
+    box-shadow: -2px 4px 18px 19px rgba(255, 0, 0, 0.4);
+}
+.event2:hover{
+    box-shadow: -2px 4px 18px 19px rgba(2, 255, 116, 0.4);
+}
+.event3:hover{
+    box-shadow: -2px 4px 18px 19px rgba(251, 255, 0, 0.4);
 }
 .events__grid-right{
     background-color: #15579d;
@@ -312,3 +322,27 @@ button{
 
 
 /* end of info section */
+
+/* footer section */
+.footer{
+    height: 250px;
+    background: #000;
+    color: white;
+}
+.footer__logo{
+    display: flex;
+}
+.footer__logo > #logo{
+    fill: white;
+}
+.footer .container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer__link{
+    margin-left: 30px;
+}
+/* end of footer */
